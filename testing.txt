@@ -1,0 +1,23 @@
+status method's url:
+localhost:5000/status?MSSQL_IP_ADDRESS=(Enter your server's ip address)&MSSQL_DATABASE=(Enter your database name)&MSSQL_USER_NAME=(Enter your server's user name)&MSSQL_PASSWORD=(Enter your server's password)
+
+to create a user:
+localhost:5000/userSignUp?user_name=Abhishek&password=pass&confirm_password=pass&update=False
+
+to update password of a existing user:
+localhost:5000/userSignUp?user_name=Abhishek&password=passing&confirm_password=passing&update=True
+
+to sign in:
+localhost:5000/userSignIn?user_name=Abhishek&password=passing
+
+to create wallet:
+localhost:5000/createWallet
+
+to read wallet and transactions:
+localhost:5000/readWallet
+
+to update wallet amount:
+localhost:5000/updateWallet?amount=2000&transaction_type=Cr
+
+to convert currency:
+localhost:5000/convertCurrency?amount=1&current_currency=USD&target_currency=INR
