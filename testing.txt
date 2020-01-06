@@ -21,3 +21,9 @@ localhost:5000/updateWallet?amount=2000&transaction_type=Cr
 
 to convert currency:
 localhost:5000/convertCurrency?amount=1&current_currency=USD&target_currency=INR
+
+to upload profilepicture:
+localhost:5000/setImage?Image=F:\\saved_img-final.jpg&update=False
+
+to update profilepicture:
+localhost:5000/setImage?Image=F:\\saved_img-final.jpg&update=True
