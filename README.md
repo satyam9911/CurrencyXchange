@@ -1,4 +1,7 @@
 # CurrencyXchange
+Currency Converter
+
+
 To convert currency and provide a user wallet
 Pre-requisites:
 python environment (Run the api)
