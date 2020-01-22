@@ -7,6 +7,7 @@ SSMS (create database and table)
 Postman (Testing of Api's)
 
 Run the sql script in ssms to create the required tablesfor the app
+
 python packages:
 flask is used to make api
 currency_converter is used for Conevrsion of currency
