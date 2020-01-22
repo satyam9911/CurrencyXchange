@@ -8,7 +8,7 @@ Postman (Testing of Api's)
 
 Run the sql script in ssms to create the required tablesfor the app
 
-python packages:
+Following python packages are used:
 flask is used to make api
 currency_converter is used for Conevrsion of currency
 pyodbc is used for sql connection
